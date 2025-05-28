@@ -1,0 +1,7 @@
+---
+- hosts: 10.1.100.7
+  become: true
+  tasks: 
+    - name: print os info
+      ansible.builtin.package:
+        name: apache2
