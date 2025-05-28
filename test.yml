@@ -1,6 +1,8 @@
 ---
 - hosts: 10.1.100.7
   become: true
+  vars:
+    ansible_become_pass: "IPN_cd02!"
   tasks: 
     - name: print os info
       ansible.builtin.package:
