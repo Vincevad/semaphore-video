@@ -1,5 +1,5 @@
 ---
-- hosts: 10.1.100.7
+- hosts: 10.1.100.7 ansible_user=ipn
   become: yes
   vars:
     ansible_become_pass: "IPN_cd02!"
