@@ -1,6 +1,6 @@
 ---
 - hosts: 10.1.100.7
-  become: true
+  become: yes
   vars:
     ansible_become_pass: "IPN_cd02!"
   tasks: 
